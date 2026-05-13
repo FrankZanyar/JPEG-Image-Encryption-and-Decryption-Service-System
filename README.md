@@ -8,12 +8,31 @@
 │   ├── cipher_images/
 │   └── decrypt_images/
 ├── Encryption/
+│   └── __init__.py
+│   └── AC_encryption.py
+│   └── DC_encryption.py
 │   └── encryption.py
+│   └── invzigzag.py
+│   └── utils.py
+│   └── zigzag.py
 ├── Decryption/
+│   └── Decompress.py
+│   └── DC_decryption.py
+│   └── Decompress.py
 │   └── decryption.py
+│   └── utils.py
 ├── JPEG/
-│   ├── jpeg_enc.py
+│   ├── extract.py
+│   └── GA.py
+│   ├── HuffmanTree.py
+│   └── imgSave.py
+│   ├── invzigzag.py
 │   └── jpeg_dec.py
+│   ├── jpeg_enc.py
+│   └── jpeg_read.py
+│   ├── readJpegBits.py
+│   └── utils.py
+│   └── zigzag.py
 ├── server.py
 ├── debug.py
 ├── requirements.txt
